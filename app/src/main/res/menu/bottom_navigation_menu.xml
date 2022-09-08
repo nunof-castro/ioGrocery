@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_home"
+        android:icon="@drawable/home"
+        android:title="home"
+        android:state_checked="true"/>
+
+    <item
+        android:id="@+id/menu_item_water"
+        android:icon="@drawable/water"
+        android:title="water"
+        android:state_checked="false"/>
+
+    <item android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item
+        android:id="@+id/menu_item_calories"
+        android:icon="@drawable/calories"
+        android:title="calories"
+        android:state_checked="false"/>
+
+    <item
+        android:id="@+id/menu_item_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="profile"
+        android:state_checked="false"/>
+
+</menu>
